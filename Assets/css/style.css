@@ -1,0 +1,120 @@
+body {
+    background-color: #ad0000;
+}
+
+.logo {
+    background-color: #ffd000;
+    padding: 20px; 
+    border-radius: 10px;
+    width: 325px; 
+    margin: 40px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logoimg {
+    width: 100%; /* Adjusted */
+}
+
+.items {
+    width: 100%; /* Adjusted */
+    max-width: 800px; /* Adjusted */
+    background-color: #ffd000;
+    border-radius: 5px;
+    padding: 10em;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    margin: 6em auto 0; 
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Added for spacing between items */
+}
+
+.item img {
+    height: auto; /* Adjusted for responsive scaling */
+    max-width: 100%; /* Adjusted */
+    border-radius: 20px;
+    border: 3px solid #ad0000;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.item p {
+    background-color: #ad0000;
+    color: #ffd000;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    width: 45%;
+    margin: 0 auto; /* Center aligning the paragraph */
+}
+
+.order-form {
+    width: 100%; /* Adjusted */
+    max-width: 350px; /* Adjusted */
+    border-radius: 15px;
+    background-color: #ffffff; 
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    position: relative;
+    margin: 6em auto 0;
+}
+
+.form-header {
+    background-color: #ad0000; 
+    color: #ffd000;
+    border-radius: 15px 15px 0 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.item-counter {
+    width: 40px;
+    height: 40px;
+    background-color: #ffd000; 
+    border-radius: 50%; 
+    border: 2px solid #ffd000;
+    color: #ad0000; 
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    padding: 15px; 
+    background-color: #ffd000;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="number"],
+.form-group input[type="text"] {
+    width: 100%; /* Adjusted */
+    padding: 10px;
+    margin: 0 0 10px;
+    border: 1px solid #ffd000; 
+    border-radius: 5px;
+}
+
+.form-group input[type="number"]::-webkit-inner-spin-button,
+.form-group input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.form-group h3 {
+    text-align: center; 
+    margin-top: 0; 
+}

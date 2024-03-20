@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ST-5</title>
+<link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+<body>
+    <!--logo-->
+    <div class="logo">
+    <img class="logoimg" src="./Assets/img/kfc.png">
+    </div>
+
+    <!--items-->
+    <div class="items">
+        <div class="item">
+            <img src="./Assets/img/1.jpg" alt="item1">
+            <p>Chicken in a strainer</p>
+        </div>
+        <div class="item">
+            <img src="./Assets/img/2.jpg" alt="item1">
+            <p>2 piece Chicken Alayb</p>
+        </div>
+        <div class="item">
+            <img src="./Assets/img/3.webp" alt="item1">
+            <p>PM-2 Well done</p>
+        </div>
+    </div>
+
+    <!--order-->
+    <div class="order-form">
+        <div class="form-header">
+            <h2>Order Here</h2>
+            <div class="item-counter">0</div>
+        </div>
+        <form id="orderForm">
+            <div class="form-group">
+                <br>
+                <h3 style="font-weight: bold;"></h3>
+                <label for="Strainer">Chicken in a strainer:</label>
+                <input type="number" id="SQ" name="strainer" min="0" value="0">
+                <br>
+                <label for="Alayb">2piece Chicken Alayb:</label>
+                <input type="number" id="AQ" name="alayb" min="0" value="0">
+                <br>
+                <label for="PM2">PM-2 Well done:</label>
+                <input type="number" id="PQ" name="pm2" min="0" value="0">
+                <br>
+                <label for="totalBill" style="font-weight: bold;">Total Bill (₱):</label>
+                <input type="number" id="totalBill" name="totalBill" value="0" readonly>
+                <br>
+                <label for="cashGiven">Cash (₱):<span style="color: #ffd000;">*</span></label>
+                <input type="number" id="cashGiven" name="cashGiven" min="0" value="0">
+            </div>
+        </form>
+    </div>
+
+    <script src="./Assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
